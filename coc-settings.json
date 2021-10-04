@@ -1,0 +1,42 @@
+
+{
+  "prettier.requireConfig": false,
+  "eslint.autoFixOnSave": true,
+  "eslint.codeActionsOnSave.mode": "all",
+  "eslint.format.enable": true,
+  "tsserver.enable": true,
+  "tsserver.enableJavascript": true,
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "html",
+    "markdown",
+    "Markdown",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "svelte",
+    "kotlin",
+    "java",
+    "groovy"
+  ],
+  "html.autoClosingTags": true,
+  "svelte.enable-ts-plugin": true,
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-1.6",
+      "path": "~/.sdkman/candidates/java/current",
+      "default": true
+    }
+  ],
+  "java.codeGeneration.useBlocks": true,
+  "java.saveActions.organizeImports": true,
+  "java.maven.downloadSources": true,
+  "codeLens.enable": true,
+  "typescript.implementationsCodeLens.enable": true,
+  "javascript.implementationsCodeLens.enable": true,
+  "vetur.completion.tagCasing": "kebab",
+  "java.completion.enabled": true,
+  "vimlsp.diagnostic.enable": true
+  
+}
