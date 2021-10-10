@@ -22,6 +22,8 @@ let g:NERDTreeGitStatusIndicatorMapCustom = {
                 \ 'Unknown'   :'?',
                 \ }
 
+let g:NERDTreeGitStatusUseNerdFonts = 1 " you should install nerdfonts by yourself. default: 0
+
 " Check if NERDTree is open or active
 function! IsNERDTreeOpen()        
   return exists("t:NERDTreeBufName") && (bufwinnr(t:NERDTreeBufName) != -1)

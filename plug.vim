@@ -6,10 +6,13 @@ Plug 'junegunn/vim-easy-align'
 
 " https://github.com/preservim/nerdtree#nerdtree-plugins
 Plug 'preservim/nerdtree' 
-Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'ryanoasis/vim-devicons' " icon
 Plug 'PhilRunninger/nerdtree-visual-selection'
+
+"git
+Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'airblade/vim-gitgutter'
 
 " Theme
 Plug 'morhetz/gruvbox'
@@ -35,7 +38,6 @@ Plug 'tpope/vim-fugitive'
 
 " Debug
 Plug 'puremourning/vimspector'
-
 Plug 'liuchengxu/vista.vim'
 
 
