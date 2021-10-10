@@ -45,6 +45,11 @@ Plug 'honza/vim-snippets'
 
 Plug 'mhinz/vim-startify' " vim 초기화면
 
+" wiki
+Plug 'vimwiki/vimwiki'
+Plug 'plasticboy/vim-markdown'
+Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
+
 
 call plug#end()
 

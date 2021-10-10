@@ -73,8 +73,9 @@ set expandtab               " converts tabs to white space
 set shiftwidth=2            " width for autoindents
 set autoindent              " indent a new line the same amount as the line just typed
 set smartindent
-"set wildmode   " get bash-like tab completions
-set wildmode=longest,full   " get bash-like tab completions
+set wildmode=list:full                " get bash-like tab completions
+set completeopt=menuone,preview
+"set wildmode=longest,full   " get bash-like tab completions
 set wildoptions=pum,tagfile
 set showcmd
 set cc=80                   " set an 80 column border for good coding style
@@ -124,6 +125,8 @@ let g:airline_theme = 'jellybeans'
 colorscheme gruvbox 
 " soft, dark, light
 set background=dark
+" force background color black
+hi Normal ctermbg=16 guibg=#000000
 
 
 lua <<EOF
