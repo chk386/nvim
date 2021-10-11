@@ -25,6 +25,8 @@ Plug 'Raimondi/delimitMate'
 
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'nathanaelkane/vim-indent-guides'
+Plug 'blueyed/vim-diminactive'
 
 
 " IDE
